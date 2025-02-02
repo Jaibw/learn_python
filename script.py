@@ -1,6 +1,6 @@
-from students import Student
-from mylogic import total
-from mylogic import Mylogic
+from models.students import Student
+from utils.mylogic import total
+from utils.mylogic import Mylogic
 
 s1 = Student("jai")
 s1.getStudent()
